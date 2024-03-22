@@ -1,0 +1,16 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -144 -128 144 128
+WINDOW 0 1 -48 Center 2
+WINDOW 3 0 -96 Center 2
+SYMATTR Value PWM_VM
+SYMATTR SpiceLine Fsw=100k Tsw=1/Fsw lim=10m Kpwm=0.5 Vcc_comp=1/Kpwm Ref=1.25
+PIN -144 80 LEFT 8
+PINATTR PinName FB
+PINATTR SpiceOrder 1
+PIN -144 16 LEFT 8
+PINATTR PinName COMP
+PINATTR SpiceOrder 2
+PIN 144 16 RIGHT 8
+PINATTR PinName D
+PINATTR SpiceOrder 3
